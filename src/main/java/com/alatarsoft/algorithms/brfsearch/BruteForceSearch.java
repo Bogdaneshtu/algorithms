@@ -13,12 +13,15 @@ public class BruteForceSearch {
     public static void bruteForceSearch() {
         double startingPoit = START_X;
         double max = f(startingPoit);
+        double maxX = startingPoit;
         double dx = 0.1;
         for (double i=startingPoit;i < END_X;i+=dx) {
-            if(f(i) > max)
-                 max = f(i);
+            if(f(i) > max) {
+                max = f(i);
+                maxX = i;
+            }
         }
-        System.out.println("The maximum value if f(x) = " + max);
+        System.out.println("The maximum value if f(x) = " + max + " and maxX is " + maxX);
     }
 
     public static void main(String[] args) {
