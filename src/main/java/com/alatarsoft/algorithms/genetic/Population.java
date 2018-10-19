@@ -25,7 +25,7 @@ public class Population {
         return this.individuals[index];
     }
 
-    public Individual getFitestIndividual() {
+    public Individual getFittestIndividual() {
         Individual fitest = individuals[0];
         for (int i=0;i<individuals.length;++i)
             if(getIndividual(i).getFitness() >= fitest.getFitness())

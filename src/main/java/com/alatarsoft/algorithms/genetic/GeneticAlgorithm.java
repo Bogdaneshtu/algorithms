@@ -59,7 +59,7 @@ public class GeneticAlgorithm {
             newPopulation.saveIndividual(i, population.getIndividual(randomIndex));
         }
 
-        Individual fitestIndividual = newPopulation.getFitestIndividual();
+        Individual fitestIndividual = newPopulation.getFittestIndividual();
         return fitestIndividual;
     }
 }

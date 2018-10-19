@@ -12,5 +12,6 @@ public class Constants {
     public static final int TOURNAMENT_SIZE = 5;
     public static final int CHROMOSOME_LENGTH = 10;
     public static final int MAX_FITNESS = 10;
+    public static final int SIMULATION_LENGTH = 100;
 
 }

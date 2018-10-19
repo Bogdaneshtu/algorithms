@@ -9,14 +9,14 @@ public class GeneticAlgorithmStarter {
         Population population = new Population(100);
         population.initialize();
         int generationCounter = 0;
-        while(population.getFitestIndividual().getFitness() != MAX_FITNESS){
+        while(population.getFittestIndividual().getFitness() != MAX_FITNESS){
             ++generationCounter;
-            System.out.println("Generation " + generationCounter + " - fittest is: " + population.getFitestIndividual().getFitness());
-            System.out.println(population.getFitestIndividual() + "\n");
+            System.out.println("Generation " + generationCounter + " - fittest is: " + population.getFittestIndividual().getFitness());
+            System.out.println(population.getFittestIndividual() + "\n");
             population = geneticAlgorithm.evolvePopulation(population);
         }
 
         System.out.println("Solution found!");
-        System.out.println(population.getFitestIndividual());
+        System.out.println(population.getFittestIndividual());
     }
 }
