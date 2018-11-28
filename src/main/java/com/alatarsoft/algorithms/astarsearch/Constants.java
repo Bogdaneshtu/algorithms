@@ -1,4 +1,4 @@
-package com.alatarsoft.algorithms.util;
+package com.alatarsoft.algorithms.astarsearch;
 
 public class Constants {
 

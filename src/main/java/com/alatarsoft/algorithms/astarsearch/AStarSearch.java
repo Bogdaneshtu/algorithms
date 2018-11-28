@@ -1,7 +1,6 @@
 package com.alatarsoft.algorithms.astarsearch;
 
 import com.alatarsoft.algorithms.model.AStarNode;
-import com.alatarsoft.algorithms.util.Constants;
 import com.google.common.collect.Lists;
 
 import java.util.ArrayList;
@@ -10,9 +9,9 @@ import java.util.Objects;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import static com.alatarsoft.algorithms.util.Constants.A_STAR_COLUMNS;
-import static com.alatarsoft.algorithms.util.Constants.A_STAR_ROWS;
-import static com.alatarsoft.algorithms.util.Constants.HORIZONTAL_VERTICAL_COST;
+import static com.alatarsoft.algorithms.astarsearch.Constants.A_STAR_COLUMNS;
+import static com.alatarsoft.algorithms.astarsearch.Constants.A_STAR_ROWS;
+import static com.alatarsoft.algorithms.astarsearch.Constants.HORIZONTAL_VERTICAL_COST;
 
 public class AStarSearch {
 
